@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { ProductContext } from "../utils/Context";
+import { ProductContext } from "../utils/Context.jsx";
 import { nanoid } from "nanoid";
 import { useNavigate } from "react-router-dom";
 import { toast } from 'react-toastify';

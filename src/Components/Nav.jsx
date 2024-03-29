@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { ProductContext } from "../utils/Context";
+import { ProductContext } from "../utils/Context.jsx";
 import { Link } from "react-router-dom";
 
 const Nav = () => {

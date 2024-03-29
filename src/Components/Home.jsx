@@ -1,9 +1,9 @@
 import { Link, useLocation } from "react-router-dom";
-import Nav from "./Nav";
+import Nav from "./Nav.jsx";
 import { useContext, useEffect, useState } from "react";
-import { ProductContext } from "../utils/Context";
-import Loading from "./Loading";
-import axios from "../utils/Axios";
+import { ProductContext } from "../utils/Context.jsx";
+import Loading from "./Loading.jsx";
+import axios from "../utils/Axios.jsx";
 
 const Home = () => {
   const [products] = useContext(ProductContext);

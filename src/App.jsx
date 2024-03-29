@@ -1,9 +1,9 @@
 import React from "react";
 import { Link, Route, Routes, useLocation } from "react-router-dom";
-import Home from "./Components/Home";
-import Details from "./Components/Details";
-import Create from "./Components/Create";
-import Edit from "./Components/Edit";
+import Home from "./Components/Home.jsx";
+import Details from "./Components/Details.jsx";
+import Create from "./Components/Create.jsx";
+import Edit from "./Components/Edit.jsx";
 
 function App() {
   const { search, pathname } = useLocation();

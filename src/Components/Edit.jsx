@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { ProductContext } from "../utils/Context";
+import { ProductContext } from "../utils/Context.jsx";
 import { toast } from 'react-toastify';
 
 const Edit = () => {
